@@ -9,7 +9,21 @@
 
 ---
 
-## 🎯 Project Overview
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Installation & Setup](#installation--setup)
+- [Usage](#usage)
+- [Reproduction Steps](#reproduction-steps)
+- [Configuration](#configuration)
+- [Proj Quirks](#proj-quirks)
+- [Model Performance](#model-performance)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+---
+
+## Project Overview
 
 This repository contains the solution developed by Team **sincere-glacier** for the 2025 PRC Data Challenge. Our approach combines physics-based feature engineering with deep learning to predict aircraft fuel consumption for flight intervals.
 
@@ -178,7 +192,7 @@ python pipelines/07_stacking_inference.py
 
 ---
 
-## 🔧 Configuration
+## Configuration
 
 Model parameters can be customized via `src/fuel_prediction/config/default.yaml`:
 
